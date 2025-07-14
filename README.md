@@ -1,8 +1,3 @@
-Here's a polished `README.md` for your **API Inventory Management Project**, based on a professional open-source structure and what’s visible in your GitHub repo:
-
----
-
-```markdown
 # 📦 API Inventory Tracker
 
 A lightweight and extensible Python-based inventory management API designed to help manage items, quantities, and pricing. Built for learning, testing, or expanding into a full-featured inventory system.
@@ -15,8 +10,19 @@ A lightweight and extensible Python-based inventory management API designed to h
 - 🧪 Easily testable Python structure
 - 💡 Clear object-oriented design using `Item` and `InventoryManager` classes
 
+## 🧠 Skills & Technologies Used
+
+- **Python 3** — Core language for logic and object-oriented structure
+- **OOP (Object-Oriented Programming)** — Class-based design for managing inventory
+- **Git & GitHub** — Version control and collaboration
+- **Unit Testing (basic)** — Sample test file for validating core functions
+- **CLI Scripting** — Simple terminal-based inventory management
+- *(Future Plan)* Flask / SQLite / REST API integration
+
+
 ## 📁 Project Structure
     api-inventory-tracker/
+
 ├── inventory.py        # Core inventory classes and logic
 ├── test\_inventory.py   # Test script to validate features
 └── README.md           # Project overview and usage instructions
