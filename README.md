@@ -17,7 +17,7 @@ A lightweight and extensible Python-based inventory management API designed to h
 - **Git & GitHub** — Version control and collaboration
 - **Unit Testing (basic)** — Sample test file for validating core functions
 - **CLI Scripting** — Simple terminal-based inventory management
-- *(Future Plan)* Flask / SQLite / REST API integration
+- **API Endpoints** for CRUD operations
 
 ## 🛠️ Getting Started
 
