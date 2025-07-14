@@ -16,13 +16,13 @@ A lightweight and extensible Python-based inventory management API designed to h
 - 💡 Clear object-oriented design using `Item` and `InventoryManager` classes
 
 ## 📁 Project Structure
-
-```
-
-api-inventory-tracker/
+    api-inventory-tracker/
 ├── inventory.py        # Core inventory classes and logic
 ├── test\_inventory.py   # Test script to validate features
 └── README.md           # Project overview and usage instructions
+
+```
+
 
 ````
 
