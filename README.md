@@ -27,10 +27,6 @@ A lightweight and extensible Python-based inventory management API designed to h
 ├── test\_inventory.py   # Test script to validate features
 └── README.md           # Project overview and usage instructions
 
-```
-
-
-````
 
 ## 🛠️ Getting Started
 
