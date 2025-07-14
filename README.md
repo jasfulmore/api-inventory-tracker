@@ -19,13 +19,6 @@ A lightweight and extensible Python-based inventory management API designed to h
 - **CLI Scripting** — Simple terminal-based inventory management
 - *(Future Plan)* Flask / SQLite / REST API integration
 
-## 📁 Project Structure
-    api-inventory-tracker/
-    ── inventory.py        # Core inventory classes and logic
-    ├── test\_inventory.py   # Test script to validate features
-    └── README.md           # Project overview and usage instructions
-
-
 ## 🛠️ Getting Started
 
 ### Prerequisites
