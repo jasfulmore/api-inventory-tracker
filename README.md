@@ -11,13 +11,16 @@ A lightweight and extensible Python-based inventory management API designed to h
 - 💡 Clear object-oriented design using `Item` and `InventoryManager` classes
 
 ## 🧠 Skills & Technologies Used
+- ## Language ##: Python 3.x
+- ## Framework ##: FastAPI – for building the RESTful API
+- ## Database ##: SQLite – lightweight relational database for persistence
+- ## ORM ##: SQLAlchemy – used to interact with the SQLite database
+- ## Pydantic ##: for data validation and serialization
+- ## Uvicorn ##: ASGI server used to run the FastAPI app
+- ## Swagger UI ##: automatically generated docs at /docs
+- ## Git ##: version control for tracking project changes
+- ## JSON ##: used for testing and exchanging structured data (via Swagger)
 
-- **Python 3** — Core language for logic and object-oriented structure
-- **OOP (Object-Oriented Programming)** — Class-based design for managing inventory
-- **Git & GitHub** — Version control and collaboration
-- **Unit Testing (basic)** — Sample test file for validating core functions
-- **CLI Scripting** — Simple terminal-based inventory management
-- **API Endpoints** for CRUD operations
 
 ## 🛠️ Getting Started
 
