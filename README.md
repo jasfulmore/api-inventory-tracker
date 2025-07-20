@@ -69,7 +69,7 @@ print(f"Total Inventory Value: ${manager.total_value():.2f}")
 
 * [X] Add RESTful API endpoints
 * [X] Implement SQLite or PostgreSQL backend
-* [ ] Add user authentication
+* [X] Add user authentication
 * [ ] Create a frontend dashboard (React or plain HTML/CSS)
 
 ## 🤝 Contributing
