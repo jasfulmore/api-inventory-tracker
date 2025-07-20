@@ -1,8 +1,3 @@
-Here's a polished `README.md` for your **API Inventory Management Project**, based on a professional open-source structure and what’s visible in your GitHub repo:
-
----
-
-```markdown
 # 📦 API Inventory Tracker
 
 A lightweight and extensible Python-based inventory management API designed to help manage items, quantities, and pricing. Built for learning, testing, or expanding into a full-featured inventory system.
@@ -15,16 +10,17 @@ A lightweight and extensible Python-based inventory management API designed to h
 - 🧪 Easily testable Python structure
 - 💡 Clear object-oriented design using `Item` and `InventoryManager` classes
 
-## 📁 Project Structure
+## 🧠 Skills & Technologies Used
+- **Language**: Python 3.x
+- **Framework**: FastAPI – for building the RESTful API
+- **Database**: SQLite – lightweight relational database for persistence
+- **ORM**: SQLAlchemy – used to interact with the SQLite database
+- **Pydantic**: for data validation and serialization
+- **Uvicorn**: ASGI server used to run the FastAPI app
+- **Swagger UI**: automatically generated docs at /docs
+- **Git**: version control for tracking project changes
+- **JSON**: used for testing and exchanging structured data (via Swagger)
 
-```
-
-api-inventory-tracker/
-├── inventory.py        # Core inventory classes and logic
-├── test\_inventory.py   # Test script to validate features
-└── README.md           # Project overview and usage instructions
-
-````
 
 ## 🛠️ Getting Started
 
@@ -71,7 +67,7 @@ print(f"Total Inventory Value: ${manager.total_value():.2f}")
 
 ## ✅ To-Do / Ideas for Expansion
 
-* [ ] Add Flask API endpoints
+* [X] Add RESTful API endpoints
 * [X] Implement SQLite or PostgreSQL backend
 * [ ] Add user authentication
 * [ ] Create a frontend dashboard (React or plain HTML/CSS)
