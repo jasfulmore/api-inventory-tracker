@@ -18,6 +18,7 @@ def init_db():
         name TEXT NOT NULL,
         quantity INTEGER NOT NULL,
         price REAL NOT NULL
+        reorder_lvl INTEGER NOT NULL
     )
     """)
     conn.commit()
@@ -30,3 +31,22 @@ def get_db():
         yield conn
     finally:
         conn.close()
+
+    
+    
+def add_item_db(conn, item):
+    cursor = conn.cursor()
+    cursor.execute(
+        "INSERT INTO items (id, name, quantity, price, reorder_lvl) VALUES (?, ?, ?, ?, ?)",
+        (item.id, item.name, item.quantity, item.price. item.reorder_lvl)
+    )
+    conn.commit()
+
+def get_all_items_db(conn):
+    cursor = conn.cursor
+    cursor.execute("SELECT * FROM items")
+    return cursor.fetchall()
+
+def delete_item_db(conn, item):
+    cursor = conn.cursor()
+    cursor.excecute("DELETE from id.name WHERE name = id.name")
