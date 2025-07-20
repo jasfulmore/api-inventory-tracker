@@ -82,4 +82,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> Built with 💻 by [Jas Fulmore](https://github.com/jasfulmore)
+> Built by [Jasmine Fulmore](https://github.com/jasfulmore)
