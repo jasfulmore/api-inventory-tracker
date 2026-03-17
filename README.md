@@ -1,16 +1,16 @@
-# 📦 API Inventory Tracker
+# API Inventory Tracker
 
 A lightweight and extensible Python-based inventory management API designed to help manage items, quantities, and pricing. Built for learning, testing, or expanding into a full-featured inventory system.
 
-## 🚀 Features
+## Features
 
-- 📘 Item management (ID, name, quantity, price)
-- 🔄 CRUD operations for inventory items
-- 🧮 Total inventory valuation
-- 🧪 Easily testable Python structure
-- 💡 Clear object-oriented design using `Item` and `InventoryManager` classes
+- Item management (ID, name, quantity, price)
+- CRUD operations for inventory items
+- Total inventory valuation
+- Easily testable Python structure
+- Clear object-oriented design using `Item` and `InventoryManager` classes
 
-## 🧠 Skills & Technologies Used
+## Skills & Technologies Used
 - **Language**: Python 3.x
 - **Framework**: FastAPI – for building the RESTful API
 - **Database**: SQLite – lightweight relational database for persistence
@@ -22,7 +22,7 @@ A lightweight and extensible Python-based inventory management API designed to h
 - **JSON**: used for testing and exchanging structured data (via Swagger)
 
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -44,7 +44,7 @@ python inventory.py
 
 You can modify the script to add, update, or delete items using the `InventoryManager` class methods.
 
-## 🧪 Example Usage
+## Example Usage
 
 ```python
 from inventory import Item, InventoryManager
@@ -65,18 +65,18 @@ manager.display_inventory()
 print(f"Total Inventory Value: ${manager.total_value():.2f}")
 ```
 
-## ✅ To-Do / Ideas for Expansion
+## To-Do / Ideas for Expansion
 
 * [X] Add RESTful API endpoints
 * [X] Implement SQLite or PostgreSQL backend
 * [X] Add user authentication
 * [ ] Create a frontend dashboard (React or plain HTML/CSS)
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome! For major changes, open an issue first to discuss what you'd like to change or improve.
 
-## 📜 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
